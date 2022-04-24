@@ -1,0 +1,21 @@
+
+<router-outlet></router-outlet>
+<a routerLink="/players-score-component">hh</a>
+<div class="container" style="margin-top: 70px;">
+  <table class="players-table">
+    <thead>
+      <tr>
+        <th>Price</th>
+        <th>Score</th>
+        <th>Players</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let players of players">
+        <td>{{ players.score }}</td>
+        <td> {{ players.players }}</td>
+        <td> {{ players.score }}</td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
