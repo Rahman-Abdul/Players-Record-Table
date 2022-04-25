@@ -51,7 +51,7 @@ tbody tr:last-child td:last-child {
 }
 
 /* Stack rows vertically on small screens */
-@media () {
+@media (max) {
   /* Hide column labels */
   thead tr {
     position: absolute;
